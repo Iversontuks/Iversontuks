@@ -1,8 +1,6 @@
-rows = int(input("Enter the number of rows :"))
-for i in range (rows) :
-    for j in range (i+1):
-      print("  ", end = " ")
-    print("\n")
-
-
-
+rows = int(input("Kindly enter the number of rows desired : "))
+k=0
+for i in range (2, rows+1):
+  for space in range (i+1):
+    print(j+1, end = "  " ) 
+  print("\t")  
